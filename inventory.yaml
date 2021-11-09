@@ -7,5 +7,6 @@ all:
       hosts: # list of 'dev' hosts
         host1: # host name
           ansible_host: "10.108.0.4" # host1 address
+          ansible_port: "55500"      # ssh port
         host2: # host name
           ansible_host: "10.108.0.3" # host2 address
